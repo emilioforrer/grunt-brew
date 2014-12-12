@@ -1,0 +1,13 @@
+{
+  "name": "grunt-brew",
+  "dependencies": {
+    "jquery": "^1.11.1",
+    "font-awesome": "4.2.0"
+  },
+  "devDependencies": {
+    "bootstrap": "~3.2.0"
+  },
+  "overrides": {
+   
+  }
+}

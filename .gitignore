@@ -1,0 +1,48 @@
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+*.sublime*
+*.iws
+
+# OS or Editor folders
+.DS_Store
+.cache
+.project
+.settings
+.tmproj
+nbproject
+Thumbs.db
+
+# WebStorm / IntelliJ
+.idea/tasks.xml
+.idea/watcherTasks.xml
+.idea/workspace.xml
+
+# Project specific
+npm-debug.log
+node_modules/
+tmp/
+#public/
+#cordova/www/
+cordova/
+bower_components/
+#update-repo.rb
+resources/
+
+tmp/
+node_modules/
+vendor/
+bower_components/
+public/
+dist/
+dist/*
+!public/.gitkeep
+!dist/.gitkeep

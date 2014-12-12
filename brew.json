@@ -1,0 +1,21 @@
+{
+
+  "directories": {
+    "src": "app",
+    "assets": "app/assets",
+    "dist": "dist",
+    "tmp": {
+      "html": "tmp/build/html",
+      "js": "tmp/build/js",
+      "transpiled": "tmp/build/transpiled",
+      "css": "tmp/build/css",
+      "bower": "tmp/bower"
+    },
+    "www": "public",
+    "vendor": [
+      "tmp/bower/jquery/jquery.js",
+      "tmp/bower/bootstrap/bootstrap.js"
+    ]
+    
+  }
+}
