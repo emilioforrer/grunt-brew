@@ -1,5 +1,11 @@
 {
   "name": "grunt-brew",
+  "version": "1.0.0",
+  "main": "dist/app.js",
+  "author": {
+    "name": "Emilio Forrer",
+    "url": "http://www.miloforrer.com"
+  },
   "dependencies": {
     "jquery": "^1.11.1",
     "font-awesome": "4.2.0"

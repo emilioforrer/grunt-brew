@@ -81,10 +81,10 @@ module.exports = (grunt) ->
     concat:
       build: 
         files: 
-          "<%= cfg.directories.dist %>/vendor.js": cfg.directories.vendor,
+          "<%= cfg.directories.dist %>/vendor.js": cfg.directories.vendor.js,
           "<%= cfg.directories.dist %>/app.js": ["<%= cfg.directories.tmp.js %>/**/**/**/*.js"]
           "<%= cfg.directories.dist %>/bundle.js": ["<%= cfg.directories.tmp.transpiled %>/**/**/**/*.js"]
-          "<%= cfg.directories.dist %>/vendor.css": ["<%= cfg.directories.tmp.bower %>/**/**/**/*.css"]
+          "<%= cfg.directories.dist %>/vendor.css": cfg.directories.vendor.css
           "<%= cfg.directories.dist %>/app.css": ["<%= cfg.directories.tmp.css %>/**/**/**/*.css"]
 
     copy:

@@ -12,10 +12,15 @@
       "bower": "tmp/bower"
     },
     "www": "public",
-    "vendor": [
-      "tmp/bower/jquery/jquery.js",
-      "tmp/bower/bootstrap/bootstrap.js"
-    ]
+    "vendor": {
+      "js": [
+        "tmp/bower/jquery/jquery.js",
+        "tmp/bower/bootstrap/bootstrap.js"
+      ],
+      "css": [
+        "tmp/bower/**/**/**/*.css"
+      ]
     
+    }
   }
 }
